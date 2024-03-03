@@ -4,9 +4,9 @@ import psycopg2
 connection = psycopg2.connect(
     dbname="mydefaultdb",
     user="myuser",
-    # password="mypassword",
+    password="mypassword",
     host="localhost",
-    port="5432"
+    port="32433"
 )
 
 # Create a cursor object
